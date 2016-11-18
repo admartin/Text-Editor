@@ -349,7 +349,7 @@ void editor(const char* filename) {
         //Defining the values of the menuToolBar, titleToolBar, and the file  currently
         //open in order to closer mimic what 
         wprintw(menuToolBar, "F1: Menu");
-        wprintw(titleToolBar, "CSCI 1730 Editor!");
+        wprintw(titleToolBar, "Text Editor!");
         wprintw(currentFileOpen, filename);
 
         wmove(displayArea, 0, 0);
